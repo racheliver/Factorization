@@ -1,0 +1,93 @@
+
+/* Racheli Verechzon, ID: 305710071*/
+/*=================================*/
+/* 			CSS File 			   */
+/*=================================*/
+
+*{
+  margin: 0px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+body {	/* design for the entire page */
+    text-align: center;
+	font-family: Calibri;
+}
+
+/* design for text */
+h1 {
+	color: white;
+}
+
+h3 {
+	font-size: 20px;
+	color: #8b0000;
+}
+
+header {	/* design for header */
+	background-color: #f6546a;
+    margin: auto;
+    width: 50%;
+	border-radius: 20px;
+}
+
+#chkTree{
+  cursor: pointer;
+}
+
+main {	/* design for main part of the page */
+    background-color: #f4f3d6;
+	margin: auto;
+    width: 50%;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+label {
+    color: gray;
+    font-size: 17px;
+	letter-spacing: 1px;
+	font-style: oblique;
+}
+
+button {	/* design for buttons*/
+	background-color: #96957b;
+	border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.err {
+	color : red;
+    padding : 3px;
+}
+
+/* design for the answer part*/
+#txtAnswer{
+  margin-top: 3%;
+  width: 96%;
+  height: 25%;
+  white-space: pre-wrap;
+  background-color: white;
+  overflow: auto;
+  margin-left: 2%;
+  text-align: left;
+  border-radius: 10px;
+}
+
+#answer2 {
+  background-color:#ffffff;
+  margin-left: 3%;
+  width:95%;
+  height: 25%;
+  visibility:hidden;
+	overflow: auto;
+	border-radius: 10px;
+	text-align: left;
+  margin-top: -5%;
+}

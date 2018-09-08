@@ -1,0 +1,54 @@
+<!-- 
+   Racheli Verechzon, ID: 305710071
+======================================
+       HTML File
+====================================== -->
+
+<!doctype html5>
+<html>
+    <head>
+        <title>Factorization Calculator</title>
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="css/Factorization.css"  />
+        <link rel="stylesheet" type="text/css" href="css/Factorization.results.css">
+
+        <!-- third party javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+        <!-- Scripts -->
+        <script src="js/Factorization.js"></script>
+        <script src="js/Factorization.results.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Prime Factor Calculator</h1>
+        </header>
+
+        <main>
+            <div class = "calculator">
+				<h3>Enter the Number to Factor</h3>
+				<!-- text input -->
+                <label for = "txtWeight"></label><input id = "txtWeight" placeholder="positive integer" />
+  			        <span id = "divErrWeight" class = "err"></span>
+                </p>
+
+				<!-- factorization tree -->
+                <label for = "chkTree"><input type = "checkbox" id = "chkTree">create a factorization tree</label>
+                </p>
+				</p>
+
+				<!-- buttons -->
+				<button id = "divClr">Clear</button>
+				<button id = "divCalc">Calculate</button>
+
+				<!-- answer part -->
+                <div id = "answer" class="Answer">
+					          <label for = "txtAnswer"></label><div id="txtAnswer">Answer:</div>
+                    <span id = "divErrAnswer" class = "err"></span>
+                </div>
+                <section id="answer2" class="answer2"></section>
+         </main>
+    </body>
+</html>
